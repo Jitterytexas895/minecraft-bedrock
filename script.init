@@ -1,0 +1,3 @@
+Apt update && upgrade -y
+Apt install java-17-jdk
+java -Xmx1024M -jar server.jar nogui
